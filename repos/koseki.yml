@@ -1,0 +1,6 @@
+description: "戸籍 — registry of my repositories: Forgejo, GitHub and the push mirrors between them, in OpenTofu"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

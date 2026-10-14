@@ -1,0 +1,4 @@
+.terraform/
+.direnv/
+*.tfplan
+*.tfstate.backup

@@ -1,0 +1,6 @@
+description: "履歴書 — my résumé (FR/EN), Astro + Svelte, data in TOML, PDF and site built with Nix"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

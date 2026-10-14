@@ -1,0 +1,6 @@
+description: "結界 — my mesh overlay network replacing Tailscale: Rust data plane, lighthouse and relay, Go CLI"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

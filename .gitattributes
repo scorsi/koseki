@@ -1,0 +1,3 @@
+# git-crypt (sekkeizu's key): secrets/ is ciphertext in the repository, plain in an unlocked clone.
+# scripts/hooks/pre-commit refuses a commit that would store it in clear.
+secrets/** filter=git-crypt diff=git-crypt

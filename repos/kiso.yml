@@ -1,0 +1,6 @@
+description: "基礎 — shared Nix foundation for my machines: a reusable flake module with nix-darwin, NixOS and Home Manager basics (fish, nushell, git, ssh, tmux, theme)"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

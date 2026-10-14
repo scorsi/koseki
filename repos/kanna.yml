@@ -1,0 +1,6 @@
+description: "鉋 — my Neovim config as a Nix flake: standalone package and Home Manager module, with a live-editable dev mode"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

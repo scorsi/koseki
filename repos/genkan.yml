@@ -1,0 +1,6 @@
+description: "玄関 — my Caddy-like reverse proxy in Go: TLS, routing and the front door of my homelab"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

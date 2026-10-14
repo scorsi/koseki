@@ -1,0 +1,14 @@
+# Same human recipients as sekkeizu's secrets/infra/: the two FIDO2 keys (a touch per decryption)
+# and the admin key, a break-glass kept only in the password manager. No host key: nothing applies
+# this repo unattended.
+keys:
+  - &admin age1hxryee5cq0vk5rwf078s3lftpdsh5anfzscpv223ulwggg3hay3qz38s8e
+  - &fido-thetis-102800549530 age19v5h3aa0ypmrwq2vqssmch75ma5qvgmuylh5c7t4llxz2rgpdptqx6y7py
+  - &fido-yubikey-34043456 age12whmd2dhljlatw5ywvanknftjzjpl9xnvhce9ky0d3dcr7lqqfeql5mev0
+creation_rules:
+  - path_regex: secrets/.*
+    key_groups:
+      - age:
+          - *fido-thetis-102800549530
+          - *fido-yubikey-34043456
+          - *admin

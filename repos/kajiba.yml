@@ -1,0 +1,6 @@
+description: "鍛冶場 — my own git forge: single-user, Nix-native CI, Rust server and runners, SvelteKit front"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

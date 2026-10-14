@@ -1,0 +1,6 @@
+description: "設計図 — my homelab blueprint: nix-darwin and NixOS hosts, services, networking and secrets in one Nix flake"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

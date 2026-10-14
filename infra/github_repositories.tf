@@ -27,6 +27,14 @@ resource "github_repository" "repo" {
   }
 }
 
+# CI runs on Forgejo; GitHub only holds mirrors.
+resource "github_actions_repository_permissions" "repo" {
+  for_each = github_repository.repo
+
+  repository = each.value.name
+  enabled    = false
+}
+
 # shortcut: provider 6.13 lacks has_pull_requests (integrations/terraform-provider-github#3479): set
 # once through the API, no drift check. Move it into github_repository once a release has it.
 resource "terraform_data" "github_no_pull_requests" {

@@ -1,0 +1,6 @@
+description: "計器 — status line for Claude Code in Nim, configured like Starship, as a Nix flake with a Home Manager module"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

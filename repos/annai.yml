@@ -1,0 +1,6 @@
+description: "案内 — my DNS server in Zig: internal zones and resolver inside the overlay, public nameserver outside, dynamic ACME records"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

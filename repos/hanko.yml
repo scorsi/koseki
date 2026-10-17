@@ -1,0 +1,6 @@
+description: "判子 — my certificate service: Let's Encrypt by DNS-01 through annai, internal SPIFFE identities later"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

@@ -1,0 +1,6 @@
+description: "枡 — my metric store: lossless archive of raw scrapes, a time-series engine later"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

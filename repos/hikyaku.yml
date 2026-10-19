@@ -1,0 +1,6 @@
+description: "飛脚 — my node agent: scrapes metrics, reads journald, spools to disk, pushes to masu and nisshi"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

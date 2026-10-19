@@ -1,0 +1,6 @@
+description: "日誌 — my log store: hash-chained NDJSON segments, and the common log schema"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

@@ -17,7 +17,7 @@ terraform {
 
 locals {
   owner       = "scorsi"
-  forgejo_url = "https://ishizue.tail9883f3.ts.net"
+  forgejo_url = "https://forgejo.uchi.scorsi.dev"
 }
 
 # Not ephemeral: the mirror token is a plain argument, it lands in the (encrypted) state anyway.

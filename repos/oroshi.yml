@@ -1,0 +1,6 @@
+description: "卸 — package registry for the homelab: Nix binary cache, then Go, Cargo, Hex and npm with pull-through caching"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

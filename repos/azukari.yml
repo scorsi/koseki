@@ -1,0 +1,6 @@
+description: "預かり — my homelab store with typed buckets, backups first: nodes push data they encrypted, the store only adds, prunes and replicates"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

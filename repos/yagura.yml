@@ -1,0 +1,6 @@
+description: "櫓 — my observability UI: node state, metrics and logs in one place, with views that cross signals"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public

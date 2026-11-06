@@ -1,0 +1,6 @@
+description: "年表 — my event store: dated events (boots, failures, restarts, OOM kills, deploys) derived from the logs"
+forgejo:
+  private: false
+github:
+  mirror: true
+  visibility: public
